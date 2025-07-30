@@ -199,3 +199,38 @@ main section{
   
 
 }
+
+/* footer styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-coloum input[type="text"],input[type="email"],textarea
+{background-color: white;
+  border-radius: 5px;
+  display: block;
+  height: 50px;
+  width: 500px;
+  margin-top: 20px;
+
+}
+
+
+/* Responsive */
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:576px)
+{
+  .skills-contriner{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+  }
+  
+}
+
