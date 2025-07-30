@@ -225,12 +225,38 @@ footer{
 
 @media screen and (max-width:576px)
 {
-  .skills-contriner{
+  .skills-contriner,.backgroundcolor,.about-items,.banner,nav,
+  nav ul{
     flex-direction: column;
   }
-  footer{
+  footer,.about{
     flex-direction: column;
+    padding: 20px;
+  }
+  .footer-coloum input[type="text"],input[type="email"],textarea
+  {
+    width: calc(100% - 40px);
+  }
+  .banner{
+    margin: 20px;
+  }
+  .background{
+    background-image: none;
+  }
+
+  .pic{
+    width: 100%;
+  }
+
+  nav ul{
+    gap: 20px;
+  }
+
+  .btn{
+    padding: 5px;
+    
   }
   
+
 }
 
